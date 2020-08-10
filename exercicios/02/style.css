@@ -1,33 +1,69 @@
 body{
-    background-color: blueviolet;
+    background-color: rgba(138, 43, 226,1);
+}
+body.sbr{
+    position: static;
+    background-image: url(https://miro.medium.com/max/870/1*JSsZXvaMDSqEVnt90ozRuw.jpeg);
+    background-size: cover;
+    background-blend-mode: saturation;
+}
+
+body.jjl{
+    position: static;
+    background-size: cover;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/917HRk8vysL.jpg);
+    background-blend-mode: saturation;
+    
+}
+body.AU{
+    position: static;
+    background-size: cover;
+    background-image: url(https://vignette.wikia.nocookie.net/jjba/images/f/f0/Volume_112.jpg/revision/latest?cb=20170413211429);
+    background-blend-mode: color;
 }
 h1{
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2em;
 }
 h2{
     text-align: center;
+    font-family: 'Franklin Gothic Medium';
     font-size: 1.5em;
 }
 tr,
 th,
 td {    
         border: solid .05em;
+        text-align: center;
+        vertical-align: auto;
 }
-img{
+img.otherimg{
     max-width: 100%;
     min-width: 100%;
     max-height: 100%;
     min-height: 10%;
+}
+img.indeximg{
+    max-width: 100%;
+    min-width: 10%;
+    max-height: 100%;
+    min-height: 10%;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+p{
+    text-align: center;
+    font-family: 'Times New Roman';
+    
+}
+table{
+    width: 100%;
+    overflow-x: auto;
+    align-content: center;
 }
 a{
     color: crimson;
-}
-img.indeximg{
-    float: left;
-    max-width: 100%;
-    min-width: 100%;
-    max-height: 100%;
-    min-height: 10%;
-    width: 50%;
 }
