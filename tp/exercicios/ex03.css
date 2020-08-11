@@ -1,0 +1,67 @@
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: .8em;
+}
+
+body{
+    background-color: salmon;
+}
+
+header{
+    width: 100%;
+    height: 20em;
+    background: url(https://static.anime21.blog.br/2018/09/CAPA-18.jpg) ;
+    background-size: cover;
+    padding: 0;
+    object-fit: cover;
+    background-position: bottom;
+}
+
+img.avatar{
+    float: left;
+    min-width: 15%;
+    min-height: 15%;
+    max-width: 15%;
+    max-height: 15%;
+    position: relative;
+    margin-top: 1em;
+}
+
+h1{
+    font-size: 3vw;
+    text-align: center;
+    font-size-adjust: initial;
+    padding: 5%;
+    position: relative;
+    float: left;
+}
+
+a{
+    font-size: 1em;
+    padding: 5%;
+    margin-top: 2%;
+    position: static;
+    float: right;
+}
+
+p{
+    clear: both;
+    font-size: 1.5em;
+}
+
+p.desc{
+    padding-top: 1em;
+    text-align: center;
+}
+
+p.hob{
+    text-align: left;
+}
+
+span.bold{
+    font-weight: bold;
+}
+
+span.italic{
+    font-style: italic;
+}
