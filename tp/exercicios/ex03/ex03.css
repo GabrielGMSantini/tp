@@ -17,7 +17,7 @@ header{
     background-position: bottom;
 }
 
-img.avatar{
+img#avatar{
     float: left;
     min-width: 15%;
     min-height: 15%;
@@ -35,6 +35,7 @@ h1{
     padding-left: 3vw;
     position: relative;
     float: left;
+    font-weight: bold;
 }
 
 a{
