@@ -44,14 +44,24 @@ img.otherimg{
     max-height: 100%;
     min-height: 10%;
 }
-img.indeximg{
-    max-width: 100%;
-    min-width: 10%;
-    max-height: 100%;
-    min-height: 10%;
+img.indeximg1{
+    max-width: 30%;
+    min-width: 30%;
+    max-height: 30%;
+    min-height: 30%;
     float: left;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 1vw;
+    margin-right: 1vw;
+
+}
+img.indeximg2{
+    max-width: 65%;
+    min-width: 65%;
+    max-height: 65%;
+    min-height: 65%;
+    float: right;
+    margin-left: 1vw;
+    margin-right: 1vw;
 
 }
 p{
