@@ -4,6 +4,7 @@ html{
 }
 
 body{
+    margin: 0;
     background-color: salmon;
 }
 
@@ -13,7 +14,6 @@ header{
     background: url(https://static.anime21.blog.br/2018/09/CAPA-18.jpg) ;
     background-size: cover;
     padding: 0;
-    object-fit: cover;
     background-position: bottom;
 }
 
@@ -32,7 +32,7 @@ h1{
     font-size: 3.8vw;
     text-align: center;
     font-size-adjust: initial;
-    padding-left: 3vw;
+    padding-left: 3vw;  
     position: relative;
     float: left;
     font-weight: bold;
