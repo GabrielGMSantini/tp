@@ -1,0 +1,70 @@
+body{
+    background-color: wheat;
+}
+div.question{
+    width: 100%;
+    background-color: lightseagreen;
+    display: flex;
+    align-items: center;
+    justify-content: left;  
+}
+p{
+    margin: 0;
+    position: relative;
+    text-align: left;
+    font-family: Arial;
+    font-weight: bold;
+    color: midnightblue;
+}
+div.answer{
+    float: left;
+    padding: 0.1em;
+    width: 100%;
+    background-color: lightskyblue;
+    
+}
+div.area{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 0.4em;
+}
+input.button{
+    margin-top: 0.4em;
+    color: white;
+    width: 13em;
+    background-color: navy;
+    outline-color: royalblue;
+}
+select[name="estado civil"]{
+    width: 70em;
+}
+input[type="date"]{
+    width: 70em;
+}
+h1{
+    text-align: left;
+    font-family: 'Arial Narrow Bold';
+    font-size: 3em;
+}
+select{
+    width: 20em;
+}
+h2{
+    text-align: left;
+    font-family: Verdana;
+    font-size: 1.5em;
+}
+
+input:invalid{
+    background-image: url(./wrong.gif);
+    background-position-x: right;
+    background-position-y: center;
+    background-repeat: no-repeat;
+
+}
+input:valid :required{
+    background-image: url(./check.png);
+    background-position-x: right;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
