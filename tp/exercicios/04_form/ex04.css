@@ -96,11 +96,45 @@ input.CE{
         width: 10vw;
     }
     
+    
+    input[type="text"],[type="tel"],[type="date"],[type="email"]{
+        width:65vw;
+    }
     input.social{
         width: 16vw;
     }
+    textarea{
+        width:75vw;
+    }
+
+    p{
+        font-size: x-small;
+    }
+    span{
+        color: black;
+        font-size: small;
+    }
+}
+
+@media (max-width: 380px){
+    input.button{
+    margin-top: 0.4em;
+    color: white;
+    width: 8em;
+    background-color: navy;
+    outline-color: royalblue;
+    }
+    select{
+        width: 10vw;
+    }
+    
+    
     input[type="text"],[type="tel"],[type="date"],[type="email"]{
         width:65vw;
+    }
+
+    input.social{
+        width: 10vw;
     }
 
     textarea{
@@ -113,5 +147,12 @@ input.CE{
     span{
         color: black;
         font-size: small;
+    }
+    div.area{
+        margin:0;
+        padding: 0;
+    }
+    body{
+        margin:0.5;
     }
 }
