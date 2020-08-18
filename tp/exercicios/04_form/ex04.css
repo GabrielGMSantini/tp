@@ -11,6 +11,7 @@ div.question{
 p{
     margin: 0;
     position: relative;
+    font-size: small;
     text-align: left;
     font-family: Arial;
     font-weight: bold;
@@ -36,10 +37,7 @@ input.button{
     outline-color: royalblue;
 }
 select[name="estado civil"]{
-    width: 70em;
-}
-input[type="date"]{
-    width: 70em;
+    width: 69vw;
 }
 h1{
     text-align: left;
@@ -47,7 +45,7 @@ h1{
     font-size: 3em;
 }
 select{
-    width: 20em;
+    width: 19vw;
 }
 h2{
     text-align: left;
@@ -67,4 +65,53 @@ input:valid :required{
     background-position-x: right;
     background-position-y: center;
     background-repeat: no-repeat;
+}
+
+input[type="text"],[type="tel"],[type="date"],[type="email"]{
+    width: 69vw;
+}
+
+textarea{
+    min-width: 69vw;
+    max-width: 69vw;
+}
+
+input.social{
+    width: 20vw;
+}
+
+input.CE{
+    width: 25vw;
+}
+
+@media (max-width: 380px){
+    input.button{
+    margin-top: 0.4em;
+    color: white;
+    width: 8em;
+    background-color: navy;
+    outline-color: royalblue;
+    }
+    select{
+        width: 10vw;
+    }
+    
+    input.social{
+        width: 16vw;
+    }
+    input[type="text"],[type="tel"],[type="date"],[type="email"]{
+        width:65vw;
+    }
+
+    textarea{
+        width:75vw;
+    }
+
+    p{
+        font-size: x-small;
+    }
+    span{
+        color: black;
+        font-size: small;
+    }
 }
