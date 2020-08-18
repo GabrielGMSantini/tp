@@ -57,6 +57,21 @@ h2{
     font-size: 1.5em;
 }
 
+textarea:invalid{
+    background-image: url(./wrong.gif);
+    background-position-x: right;
+    background-position-y: top;
+    background-repeat: no-repeat;
+}
+
+textarea:valid:required{
+    background-image: url(./check.png);
+    background-position-x: right;
+    background-position-y: top;
+    background-repeat: no-repeat;
+}
+
+
 input:invalid{
     background-image: url(./wrong.gif);
     background-position-x: right;
@@ -64,7 +79,7 @@ input:invalid{
     background-repeat: no-repeat;
 
 }
-input:valid :required{
+input:valid:required{
     background-image: url(./check.png);
     background-position-x: right;
     background-position-y: center;
