@@ -1,0 +1,145 @@
+body{
+    background-color: wheat;
+}
+div.question{
+    width: 100%;
+    background-color: lightseagreen;
+    display: flex;
+    align-items: center;
+    justify-content: left;  
+}
+p{
+    margin: 0;
+    position: relative;
+    font-size: small;
+    text-align: left;
+    font-family: Arial;
+    font-weight: bold;
+    color: midnightblue;
+}
+div.answer{
+    float: left;
+    padding: 0.1em;
+    width: 100%;
+    background-color: lightskyblue;
+    
+}
+
+textarea{
+    resize: none;
+}
+div.area{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 0.4em;
+}
+input.button{
+    margin-top: 0.4em;
+    color: white;
+    width: 13em;
+    background-color: navy;
+    outline-color: royalblue;
+}
+select[name="estado civil"]{
+    width: 69vw;
+}
+h1{
+    text-align: left;
+    font-family: 'Arial Narrow Bold';
+    font-size: 3em;
+}
+select{
+    width: 19vw;
+}
+h2{
+    text-align: left;
+    font-family: Verdana;
+    font-size: 1.5em;
+}
+
+textarea:invalid{
+    background-image: url(./wrong.gif);
+    background-position-x: right;
+    background-position-y: top;
+    background-repeat: no-repeat;
+}
+
+textarea:valid:required{
+    background-image: url(./check.png);
+    background-position-x: right;
+    background-position-y: top;
+    background-repeat: no-repeat;
+}
+
+
+input:invalid{
+    background-image: url(./wrong.gif);
+    background-position-x: right;
+    background-position-y: center;
+    background-repeat: no-repeat;
+
+}
+input:valid:required{
+    background-image: url(./check.png);
+    background-position-x: right;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+input[type="text"],[type="tel"],[type="date"],[type="email"]{
+    width: 69vw;
+}
+
+textarea{
+    min-width: 69vw;
+    max-width: 69vw;
+}
+
+input.social{
+    width: 20vw;
+}
+
+input.CE{
+    width: 25vw;
+}
+
+@media (max-width: 380px){
+    input.button{
+    margin-top: 0.4em;
+    color: white;
+    width: 8em;
+    background-color: navy;
+    outline-color: royalblue;
+    }
+    select{
+        width: 10vw;
+    }
+    
+    
+    input[type="text"],[type="tel"],[type="date"],[type="email"]{
+        width:65vw;
+    }
+
+    input.social{
+        width: 10vw;
+    }
+
+    textarea{
+        width:75vw;
+    }
+
+    p{
+        font-size: x-small;
+    }
+    span{
+        color: black;
+        font-size: small;
+    }
+    div.area{
+        margin:0;
+        padding: 0;
+    }
+    body{
+        margin:0.5;
+    }
+}
