@@ -130,3 +130,53 @@
     font-style: normal;
 
 }
+
+p{
+    font-family: libre_baskervilleregular;
+}
+
+.dropdown-item{
+    font-family: libre_baskervilleregular;
+}
+
+span.navfont{
+    vertical-align: middle;
+    font-family: sf_fedoraregular;
+}
+
+h1{
+    font-family: sf_fedoraregular; 
+    margin-top: 1%;
+    text-align: center;
+}
+
+div.centerarea{
+    width:80%;
+    margin-left:10%; 
+    margin-top: 1%
+}
+
+.navbar{
+    padding-bottom: 0; 
+    padding-top: 0; 
+    padding-left: 0.5em;
+    padding-right: 0.5em; 
+}
+
+p.main_text{
+    margin:0.6em; 
+    text-align: justify;
+}
+
+.navbar-brand{
+    height: 100%;
+}
+
+.logo{
+    width: 3em;
+}
+span.accordion_link_font{
+    margin: 0;
+    vertical-align: middle;
+    font-family: sf_fedoraregular;
+}
