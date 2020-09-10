@@ -153,7 +153,8 @@ h1{
 div.centerarea{
     width:80%;
     margin-left:10%; 
-    margin-top: 1%
+    margin-top: 1%;
+    padding-bottom: 1em;
 }
 
 .navbar{
@@ -175,6 +176,7 @@ p.main_text{
 .logo{
     width: 3em;
 }
+
 span.accordion_link_font{
     margin: 0;
     vertical-align: middle;
