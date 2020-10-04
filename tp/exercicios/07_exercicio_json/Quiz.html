@@ -13,48 +13,52 @@
     <title>Quiz</title>
 </head>
 
-<body onload="nextQuestion()">
+<body onload="nextQuestion()" style="background: url(./images/background.png) no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; ">
     <div class="container mx-auto" id="container">
         <div class="row">
-            <p>
-            Qual é o nome da personagem abaixo
+            <p style="color:white">
+                Qual é o nome da personagem abaixo
             </p>
         </div>
         <div class="row">
-            <div class="img-fluid h-100">
+            <div class="img-fluid h-100 " style="color:white">
                 Pontuação: <span id="score">0</span>
             </div>
         </div>
         <div class="row">
-            <div class="img-fluid h-100 mx-auto" style="margin-bottom: 0.8em;">
-                <img class="img-fluid" id="imagem" style="height: 45vw;">
+            <div class="img-fluid h-100 mx-auto" style="margin-bottom: 0.8em; margin-top: 10vh;">
+                <img class="img-fluid" id="imagem" style="height: auto; max-height: 39em;">
             </div>
         </div>
         <div class="row">
             <div class="col-sm">
-                <div class="btn w-100" id="opção1" style="background-color: blanchedalmond; margin-bottom: 0.5em;" onclick="validate(1)">
+                <div class="btn w-100" id="opção1" style="background-color: skyblue; margin-bottom: 0.5em;"
+                    onclick="validate(1)">
                     Placeholder
                 </div>
             </div>
             <div class="col-sm">
-                <div class="btn w-100" id="opção2" style="background-color: blanchedalmond; margin-bottom: 0.5em; " onclick="validate(2)">
+                <div class="btn w-100" id="opção2" style="background-color:skyblue; margin-bottom: 0.5em; "
+                    onclick="validate(2)">
                     Placeholder
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-sm">
-                <div class="btn w-100" id="opção3" style="background-color: blanchedalmond; margin-bottom: 0.5em;" onclick="validate(3)">
+                <div class="btn w-100" id="opção3" style="background-color: skyblue; margin-bottom: 0.5em;"
+                    onclick="validate(3)">
                     Placeholder
                 </div>
             </div>
             <div class="col-sm">
-                <div class="btn w-100" id="opção4" style="background-color: blanchedalmond; margin-bottom: 0.5em;" onclick="validate(4)">
+                <div class="btn w-100" id="opção4" style="background-color: skyblue; margin-bottom: 0.5em;"
+                    onclick="validate(4)">
                     Placeholder
                 </div>
             </div>
         </div>
-        
+
     </div>
 </body>
 

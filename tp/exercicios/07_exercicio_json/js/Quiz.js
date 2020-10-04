@@ -26,8 +26,20 @@ function validate(opcao){
         nextQuestion();
     }
     else{
-        document.getElementById("container").innerHTML = "Your score is: " + score.toString();
-        document.getElementById("container").style.textAlign="center";
-        document.getElementById("container").style.marginTop = "50vh";
+        document.getElementById("container").innerHTML = "";
+        let tex = document.createElement("div");
+        tex.textContent = "Your score is: " + score.toString()
+        tex.style = "text-align: center; margin-Top:50vh; color:white";
+        document.getElementById("container").appendChild(tex);
+        let but = document.createElement("div");
+        but.className = "btn w-50";
+        but.textContent = "Clique aqui para reiniciar o jogo";
+        but.style = "background-color: skyblue; margin-bottom: 0.5em; margin-left: 25%; margin-right: 25%";
+        but.addEventListener("click",reload,false);
+        document.getElementById("container").appendChild(but);
     }
+}
+
+function reload(){
+    location.reload();
 }
