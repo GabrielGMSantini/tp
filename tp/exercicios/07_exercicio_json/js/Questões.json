@@ -1,0 +1,103 @@
+var questoes=[
+    {
+        "imagem":"images/JosephTequila.png",
+        "resposta_correta":"Joseph Joestar",
+        "opcoes":[
+            "Joseph Joestar",
+            "Jonathan Joestar",
+            "Hikashikata Josuke",
+            "Kujo Jotaro"
+        ]
+        
+    },
+    {
+        "imagem":"images/artoria pendragon.jpg",
+        "resposta_correta":"Altria Pendragon",
+        "opcoes":[
+            "Tohsaka Rin",
+            "Astolfo",
+            "Illyasviel von Einzbern",
+            "Altria Pendragon"
+        ]
+    },
+    {
+        "imagem":"images/Megumin.jpg",
+        "resposta_correta":"Megumin",
+        "opcoes":[
+            "Yunyun",
+            "Darkness",
+            "Aqua",
+            "Megumin"
+        ]
+    },
+    {
+        "imagem":"images/Rem.jpg",
+        "resposta_correta":"Rem",
+        "opcoes":[
+            "Rem",
+            "Ram",
+            "Emilia",
+            "Echidna"
+        ]
+    },
+    {
+        "imagem":"images/Mikasa.png",
+        "resposta_correta":"Mikasa Ackerman",
+        "opcoes":[
+            "Sasha Blouse",
+            "Mikasa Ackerman",
+            "Christa Lenz",
+            "Hange Zoë"
+        ]
+    },
+    {
+        "imagem":"images/Kurisu.jpg",
+        "resposta_correta":"Makise Kurisu",
+        "opcoes":[
+            "Daru the Super Hacker",
+            "Chrisinho do SO",
+            "Makise Kurisu",
+            "Mayuri Tuturu"
+        ]
+    },
+    {
+        "imagem":"images/Morgiana.jpg",
+        "resposta_correta":"Morgiana",
+        "opcoes":[
+            "Pisti",
+            "Arba",
+            "Myers",
+            "Morgiana"
+        ]
+    },
+    {
+        "imagem":"images/Polnareff.jpg",
+        "resposta_correta":"Jean Pierre Polnareff",
+        "opcoes":[
+            "Guido Mista",
+            "Robert E. O. Speedwagon",
+            "Jean Pierre Polnareff",
+            "Rudol von Stroheim"
+        ]
+    },
+    {
+        "imagem":"images/small Nezuko.jpg",
+        "resposta_correta":"Kamado Nezuko",
+        "opcoes":[
+            "Kamado Nezuko",
+            "Kocho Shinobu",
+            "Kanroji Mitsuri",
+            "Tamayo"
+        ]
+    },
+    {
+        "imagem":"images/Schwi.png",
+        "resposta_correta":"Schwi Dola",
+        "opcoes":[
+            "Stephanie Dola",
+            "Schwi Dola",
+            "Shiro",
+            "Jibril"
+        ]
+    }
+];
